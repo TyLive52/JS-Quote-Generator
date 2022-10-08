@@ -1,0 +1,38 @@
+* {
+    background-color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    flex: auto;
+    display: flexbox;
+    text-align: center;
+    color:aliceblue;
+}
+
+h1 { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+
+button:hover {
+    background-color: orangered;
+}
+
+#background {
+    position: center; 
+    width: 100%; 
+    height: auto; 
+      
+    left: 300px; 
+    top: 0px; 
+    z-index: -999; /* Ensure div tag stays behind content; -999 might work, too. */
+  }
+
+  #quoteDisplay {
+    position: center;
+  }
+
+#title {
+    font-family: Arial, sans-serif;
+}
+
+
+
